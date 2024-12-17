@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PRO DEVELOPING CHAMPS</title>
-    <link rel="icon" type="image/x-icon" href="/img/logo1.png">
+    <link rel="icon" type="image/x-icon" href="img/logo1.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,53 +15,142 @@
 </head>
 
 <body>
-     <!-- Navbar -->
-  <nav class="navbar">
-    <!-- Logo -->
-    <div class="logo">&lt;/&gt;</div>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <!-- Logo -->
+        <div class="logo">&lt;/&gt;</div>
 
-    <!-- Desktop Menu -->
-    <div class="menu">
-      <a href="#home">Home</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="https://www.youtube.com/channel/UCI2U_88UDpyze99x2LtNI-A" target="_blank">View Channel</a>
-    </div>
-
-    <!-- Hamburger Menu -->
-    <div class="hamburger" onclick="toggleMenu()">
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
-
-    <!-- Mobile Menu -->
-    <div class="mobile-menu" id="mobileMenu">
-      <a href="#home">Home</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="https://www.youtube.com/channel/UCI2U_88UDpyze99x2LtNI-A" target="_blank">View Channel</a>
-    </div>
-  </nav>
-    
-    
-    <div id="home">
-        <div class="homeContent">
-            <p style="font-size: 45px; font-weight: bold;">PRO DEVELOPING CHAMPS</p>
-            <p style="font-size: 25px;">Learn AI, Cyber Security, Web Development, and many more.</p>
-            <br>
-            <a href="https://www.youtube.com/@prodevelopingchamps/playlists" target="_blank" class="viewService">VIEW SERVICES</a>
-
+        <!-- Desktop Menu -->
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="https://www.youtube.com/channel/UCI2U_88UDpyze99x2LtNI-A" target="_blank">View Channel</a>
         </div>
 
-    </div>
+        <!-- Hamburger Menu -->
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="https://www.youtube.com/channel/UCI2U_88UDpyze99x2LtNI-A" target="_blank">View Channel</a>
+        </div>
+    </nav>
+
+
+    <section id="home" class="home-section">
+        <div class="homeContent">
+            <p class="heading">PRO DEVELOPING CHAMPS</p>
+            <p class="content">Learn AI, Cyber Security, Web Development, and many more.</p>
+            <br><br>
+            <a href="https://www.youtube.com/@prodevelopingchamps/playlists" target="_blank" class="viewService">VIEW
+                SERVICES</a>
+
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <!-- YouTube Video Embed -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/-C3tLReHCK8" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- Text Content -->
+            <div class="about-content">
+                <p style="color: rgb(4, 158, 43); font-size: 20px;">Welcome to our website!</p>
+                <p style="font-size: 35px; font-weight: bold;">Enroll in our Free Courses</p>
+                <p style="font-size: 20px;">
+                    We are pleased to see you hear. We offer various courses for students and working professionals to
+                    learn and grow in their field. We cover various domains including AI, Prompt Engineering, Cyber
+                    Security, Web Development, and many more. Our Intention behind creating these content is purely to
+                    help others. We would request you all to <strong>SUBSCRIBE</strong> to our YouTube Channel and stay
+                    connected with us so that you could get the update of our amazing courses everytime.
+                    <br><br>
+                    <a href="#services" class="explore" style="color: black; text-underline-offset: 5px; ;">Explore
+                        more</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-section" id="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <!-- Service Card 1 -->
+            <a href="https://www.youtube.com/@prodevelopingchamps/playlists" target="_blank"
+                style="text-decoration: none;">
+                <div class="service-card">
+                    <h3>Web Development</h3>
+                    <p>We provide top-notch web development tutorials to make your web development journey amazing.</p>
+                </div>
+            </a>
+            <!-- Service Card 2 -->
+            <a href="https://www.youtube.com/playlist?list=PLockM0FbsYsAaEUDxNAieANsrjVvgCv3x" target="_blank"
+                style="text-decoration: none;">
+                <div class="service-card">
+                    <h3>Prompt Engineering</h3>
+                    <p>Learn about AI and Prompt Engineering to build your career as a AI and Prompt Engineering expert.
+                    </p>
+                </div>
+            </a>
+            <!-- Service Card 3 -->
+            <a href="https://www.youtube.com/playlist?list=PLockM0FbsYsDpS9JUrLM4VeecqtFFCD9c" target="_blank"
+                style="text-decoration: none;">
+                <div class="service-card">
+                    <h3>Cybersecurity</h3>
+                    <p>Build your career in cybersecurity and Ethical Hacking. Explore our amazing courses.</p>
+                </div>
+            </a>
+            <!-- Service Card 4 -->
+            <a href="https://www.youtube.com/playlist?list=PLockM0FbsYsB3qjoBfcrViq_uMzOjn9fg" target="_blank"
+                style="text-decoration: none;">
+                <div class="service-card">
+                    <h3>SQL</h3>
+                    <p>SQL and Database concepts easily explained in short videos. Learn and be ready for your SQL
+                        Interview.</p>
+                </div>
+            </a>
+            <!-- Service Card 5 -->
+            <a href="https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqa1ZfOGdPU0t4SEMwRzJRMDJiaXNSQUV3alYyd3xBQ3Jtc0traDJ0dE1vZlVCSEhkYWxTX0t6VmZweGhPRjg5a3E2aFNUTzJpM3dVM2phOGNDOWhSVXpxUlI4bzNkdkpwTWRuVVVKTjZFckV0ZzVlVGhfeklDRUxBNkZQNUpaM3VvYjc0NkVRbWc1Y29hbnZGMXpTSQ&q=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F1fkj6t1vGPS8YomGc4vDUdmyxO_1u557np6_p_qLen8s%2Fedit%3Fgid%3D0%23gid%3D0"
+                target="_blank" style="text-decoration: none;">
+                <div class="service-card">
+                    <h3>Coding Challenge</h3>
+                    <p>Learn any programming language with this DPP series in just 7 days.</p>
+                </div>
+            </a>
+            <!-- Service Card 6 -->
+            <a href="https://www.youtube.com/playlist?list=PLockM0FbsYsBF8b5EMf2tSszfRAIb9djV" target="_blank"
+                style="text-decoration: none;">
+                <div class="service-card">
+                    <h3>Roadmap</h3>
+                    <p>Are you a fresher? Want to know the roadmap of various tech domains. Here it is.</p>
+                </div>
+            </a>
+        </div>
+        <!-- View More Link -->
+        <a href="https://www.youtube.com/@prodevelopingchamps/playlists" class="view-more" target="_blank">View More</a>
+    </section>
+
+
     <script>
         // Toggle Mobile Menu
         function toggleMenu() {
-          const mobileMenu = document.getElementById('mobileMenu');
-          mobileMenu.classList.toggle('active');
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('active');
         }
-      </script>
+    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
